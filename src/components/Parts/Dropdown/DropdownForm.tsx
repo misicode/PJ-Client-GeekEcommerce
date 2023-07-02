@@ -16,7 +16,7 @@ const DropdownForm = ({ containerStyle = "", selectorStyle = "", firstOption, ch
     <div ref={ dropdownRef } className={ `relative ${ containerStyle }` }>
       <button onClick={ toggleDropdown } className={ `flex w-full rounded items-center justify-between ${ selectorStyle }` }>
         <span>{ firstOption }</span>
-        <SelectorIcon classList="w-3.5 h-3.5 my-auto text-slate-500" />
+        <SelectorIcon classList="w-3.5 h-3.5" />
       </button>
       { isOpen && children }
     </div>

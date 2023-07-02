@@ -8,7 +8,7 @@ const ToggleTheme = () => {
   return (
     <button
       onClick={ toggleTheme }
-      className="p-2 text-gray-500 hover:text-cyan-500 border-x-2 border-slate-300 dark:border-slate-600 focus:outline-none"
+      className="pl-2 text-gray-500 hover:text-primary-500 border-l-2 border-gray-300 dark:border-gray-700 focus:outline-none"
       type="button"
     >
       <svg

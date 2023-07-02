@@ -29,13 +29,18 @@ const TopBar = () => {
   };
 
   return (
-    <div className="px-6 sm:px-12 md:px-16 lg:px-24 flex items-center justify-between text-xs dark:text-slate-50 bg-slate-200 dark:bg-slate-700">
-      <DropdownForm firstOption={ `${ language.label } / ${ currency.value }` } containerStyle="w-32" selectorStyle="py-2 px-4 hover:text-cyan-500 border-x-2 border-slate-300 dark:border-slate-600">
-        <div className="absolute w-auto py-3 px-4 bg-slate-200 dark:bg-slate-700 rounded-b-lg">
+    <div className="px-6 sm:px-12 md:px-16 lg:px-24 flex items-center justify-between text-xs bg-gray-100 dark:bg-gray-900">
+      <DropdownForm 
+        firstOption={ `${ language.label } / ${ currency.value }` }
+        containerStyle="w-24"
+        selectorStyle="py-2 hover:text-primary-500"
+      >
+        <div className="absolute w-auto py-3 px-4 bg-gray-100 dark:bg-gray-900 rounded-b-lg">
           <p>Idioma</p>
           <DropdownList 
             containerStyle="w-48 mt-1.5 mb-3"
-            selectorStyle="py-1.5 px-2.5 bg-slate-100 dark:bg-slate-600 ring-1 ring-slate-300 dark:ring-slate-500"
+            selectorStyle="py-1.5 px-2.5 bg-gray-50 dark:bg-gray-800 ring-1 ring-gray-300 dark:ring-gray-500 rounded"
+            listStyle="bg-gray-50 dark:bg-gray-800 ring-1 ring-gray-300 dark:ring-gray-500"
             firstOption={ language }
             options={ languages }
             onSelect={ handleLanguageSelect }
@@ -43,7 +48,8 @@ const TopBar = () => {
           <p>Moneda</p>
           <DropdownList 
             containerStyle="w-48 mt-1.5 mb-2"
-            selectorStyle="py-1.5 px-2.5 bg-slate-100 dark:bg-slate-600 ring-1 ring-slate-300 dark:ring-slate-500"
+            selectorStyle="py-1.5 px-2.5 bg-gray-50 dark:bg-gray-800 ring-1 ring-gray-300 dark:ring-gray-500 rounded"
+            listStyle="bg-gray-50 dark:bg-gray-800 ring-1 ring-gray-300 dark:ring-gray-500"
             firstOption={ currency }
             options={ currencies }
             onSelect={ handleCurrencySelect }
@@ -52,16 +58,16 @@ const TopBar = () => {
       </DropdownForm>
       <div className="flex-1"></div>
       <div className="flex items-center">
-        <a href="#" className="py-2 px-4 hover:text-cyan-500 border-l-2 border-slate-300 dark:border-slate-600">
+        <a href="#" className="px-4 hover:text-primary-500">
           SUSCRÍBETE
         </a>
-        <a href="#" className="py-2 px-4 hover:text-cyan-500 border-l-2 border-slate-300 dark:border-slate-600">
+        <a href="#" className="px-4 hover:text-primary-500 border-l-2 border-gray-300 dark:border-gray-700">
           PREGUNTAS
         </a>
         <ToggleTheme />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default TopBar;

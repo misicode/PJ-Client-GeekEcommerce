@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Theme } from "../contexts/theme.context";
 
 export const useTheme = () => {
-  const [theme, setTheme] = useState<Theme>(
+  const [ theme, setTheme ] = useState<Theme>(
     (localStorage.getItem("theme") as Theme) || "light"
   );
 
@@ -26,7 +26,7 @@ export const useTheme = () => {
       document.getElementById("theme-toggle-light")?.classList.add("hidden");
       document.getElementById("theme-toggle-dark")?.classList.remove("hidden");
     }
-  }, [theme]);
+  }, [ theme ]);
 
   return {
     theme,
