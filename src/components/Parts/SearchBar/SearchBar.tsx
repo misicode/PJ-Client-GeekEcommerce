@@ -27,7 +27,7 @@ const SearchBar = () => {
       <DropdownList 
         containerStyle="w-44"
         selectorStyle="py-2.5 px-3 text-neutral-50 font-medium bg-primary-600 border-2 border-primary-600 rounded-l-lg focus:rounded-tl-lg"
-        listStyle="-translate-y-0.5 translate-x-0.5 dark:bg-gray-800 border-x-2 border-b-2 border-primary-600"
+        listStyle="-translate-y-0.5 translate-x-0.5 bg-white dark:bg-gray-800 border-x-2 border-b-2 border-primary-600"
         firstOption={ category }
         options={ categories }
         onSelect={ handleCategorySelect }

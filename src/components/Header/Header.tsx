@@ -1,4 +1,5 @@
 import CentralBar from "./CentralBar/CentralBar";
+import NavBar from "./NavBar/NavBar";
 import TopBar from "./TopBar/TopBar";
 
 const Header = () => {
@@ -6,6 +7,7 @@ const Header = () => {
     <header className="dark:text-gray-50">
       <TopBar />
       <CentralBar />
+      <NavBar />
     </header>
   );
 };
