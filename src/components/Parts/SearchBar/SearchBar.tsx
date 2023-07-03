@@ -35,7 +35,7 @@ const SearchBar = () => {
       <div className="relative w-full">
         <input 
           type="search"
-          className="w-full p-2.5 text-gray-900 dark:text-white bg-transparent rounded-r-lg border-2 border-primary-600 dark:placeholder-gray-400 focus:outline-none"
+          className="w-full py-2 px-2.5 text-gray-900 dark:text-white bg-transparent rounded-r-lg border-2 border-primary-600 dark:placeholder-gray-400 focus:border-primary-600 focus:ring-0"
           placeholder="Buscar en TecnoCat"
           required
         />

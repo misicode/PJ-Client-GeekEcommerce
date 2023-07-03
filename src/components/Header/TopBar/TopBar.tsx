@@ -29,13 +29,13 @@ const TopBar = () => {
   };
 
   return (
-    <div className="px-6 sm:px-12 md:px-16 lg:px-24 flex items-center justify-between text-xs bg-gray-100 dark:bg-gray-900">
+    <div className="px-6 sm:px-12 md:px-16 lg:px-24 flex items-center justify-between bg-gray-100 dark:bg-gray-900">
       <DropdownForm 
         firstOption={ `${ language.label } / ${ currency.value }` }
         containerStyle="w-24"
         selectorStyle="py-2 hover:text-primary-500"
       >
-        <div className="absolute w-auto py-3 px-4 bg-gray-100 dark:bg-gray-900 rounded-b-lg">
+        <div className="absolute z-20 w-auto py-3 px-4 bg-gray-100 dark:bg-gray-900 rounded-b-lg">
           <p>Idioma</p>
           <DropdownList 
             containerStyle="w-48 mt-1.5 mb-3"

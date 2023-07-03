@@ -4,13 +4,15 @@ import SearchBar from "../../Parts/SearchBar/SearchBar";
 
 export const CentralBar = () => {
   return (
-    <div className="h-24 px-6 sm:px-12 md:px-16 lg:px-24 flex items-center dark:bg-gray-800">
+    <div className="h-24 px-6 sm:px-12 md:px-16 lg:px-24 flex items-center">
       <div className="flex items-center">
-        <img className="h-14" src="logo.svg" />
-        <span className="pl-3 text-4xl font-primary font-medium text-primary-500">TecnoCat</span>
+        <div className="w-16">
+          <img className="h-14" src="logo.svg" alt="Logo TecnoCat" />
+        </div>
+        <span className="pl-2 text-4xl font-primary font-medium text-primary-500">TecnoCat</span>
       </div>
       <SearchBar />
-      <div className="ml-10 text-xs text-gray-700 dark:text-white">
+      <div className="ml-10 text-gray-700 dark:text-white">
         <button className="ml-4 mr-3 px-2 hover:text-primary-600 text-center">
           <UserIcon />
           <p>Mi Perfil</p>
