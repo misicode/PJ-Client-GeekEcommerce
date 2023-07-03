@@ -31,25 +31,25 @@ const videogames: DropdownOption[] = [
 
 const NavBar = () => {
   return (
-    <nav className="grid grid-cols-5 gap-x-4 px-6 sm:px-12 md:px-16 lg:px-24 pt-5 pb-8 text-xs dark:bg-gray-800">
+    <nav className="flex pb-8 text-xs font-medium dark:bg-gray-800 justify-center">
       <DropdownHoverList
-        firstOption="Accesorios"
+        firstOption="ACCESORIOS"
         options={ accessories }
       />
       <DropdownHoverList
-        firstOption="Coleccionables"
+        firstOption="COLECCIONABLES"
         options={ collectibles }
       />
       <DropdownHoverList
-        firstOption="Consolas"
+        firstOption="CONSOLAS"
         options={ consoles }
       />
       <DropdownHoverList
-        firstOption="Tarjetas"
+        firstOption="TARJETAS"
         options={ cards }
       />
       <DropdownHoverList
-        firstOption="Videojuegos"
+        firstOption="VIDEOJUEGOS"
         options={ videogames }
       />
     </nav>

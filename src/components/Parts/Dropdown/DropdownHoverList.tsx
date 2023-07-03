@@ -1,7 +1,5 @@
 import { DropdownOption } from "../../../types/menu";
 
-import SelectorIcon from "../../Icons/SelectorIcon/SelectorIcon";
-
 type DropdownHoverListProps = {
   firstOption: string;
   options: DropdownOption[];
@@ -9,16 +7,15 @@ type DropdownHoverListProps = {
 
 const DropdownHoverList = ({ firstOption, options }: DropdownHoverListProps) => {
   return (
-    <div className="group relative">
-      <button className="flex w-full py-2 px-4 bg-gray-100 dark:bg-gray-900 rounded-md items-center justify-between" type="button">
+    <div className="group relative w-36">
+      <button className="w-full py-3 px-4 text-center" type="button">
         <span>{ firstOption }</span>
-        <SelectorIcon classList="w-3.5 h-3.5" />
       </button>
-      <ul className="invisible group-hover:visible absolute z-10 w-full bg-gray-100 dark:bg-gray-900 rounded-b-lg">
+      <ul className="invisible group-hover:visible absolute z-10 w-full bg-gray-100 dark:bg-gray-900 rounded-lg">
         { options.map((option) => (
           <li
             key={ option.value }
-            className="cursor-pointer pt-1.5 pb-2.5 px-4 rounded-b-lg hover:font-medium hover:text-primary-500"
+            className="cursor-pointer pt-1.5 pb-2.5 px-4 hover:text-primary-500"
           >
             { option.label }
           </li>
