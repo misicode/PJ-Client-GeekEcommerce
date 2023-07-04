@@ -1,14 +1,8 @@
-import Header from "./components/Header/Header";
-import Landing from "./components/Landing/Landing";
-
-import "./App.css";
+import { Outlet } from "react-router-dom";
 
 const App = () => {
   return (
-    <>
-      <Header />
-      <Landing />
-    </>
+    <Outlet />
   );
 };
 
