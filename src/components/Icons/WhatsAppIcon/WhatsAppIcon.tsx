@@ -2,7 +2,7 @@ const WhatsAppIcon = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="text-primary-500"
+      className="text-primary-600"
       width="33"
       height="33"
       viewBox="0 0 24 24"

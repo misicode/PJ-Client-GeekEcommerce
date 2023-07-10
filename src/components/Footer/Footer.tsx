@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div className="grid mt-6 md:mt-3 grid-cols-2 gap-8 sm:gap-6">
           <div>
-            <h4 className="mb-6 font-bold uppercase text-primary-500">
+            <h4 className="mb-6 font-bold uppercase text-primary-600">
               Información
             </h4>
             <ul className="flex flex-wrap flex-col text-sm space-y-4">
@@ -53,7 +53,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="mb-6 font-bold uppercase text-primary-500">
+            <h4 className="mb-6 font-bold uppercase text-primary-600">
               Enlaces
             </h4>
             <ul className="flex flex-wrap flex-col text-sm space-y-4">

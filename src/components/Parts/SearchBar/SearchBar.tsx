@@ -26,8 +26,8 @@ const SearchBar = () => {
     <form className="flex flex-1 pl-16 text-sm">
       <DropdownList 
         containerStyle="w-44"
-        selectorStyle="py-2.5 px-3 text-neutral-50 font-medium bg-primary-600 border-2 border-primary-600 rounded-l-lg focus:rounded-tl-lg"
-        listStyle="-translate-y-0.5 translate-x-0.5 bg-white dark:bg-gray-800 border-x-2 border-b-2 border-primary-600"
+        selectorStyle="py-2.5 px-3 text-neutral-50 font-medium bg-primary-550 border-2 border-primary-550 rounded-l-lg focus:rounded-tl-lg"
+        listStyle="-translate-y-0.5 translate-x-0.5 bg-white dark:bg-gray-800 border-x-2 border-b-2 border-primary-550"
         firstOption={ category }
         options={ categories }
         onSelect={ handleCategorySelect }
@@ -35,11 +35,11 @@ const SearchBar = () => {
       <div className="relative w-full">
         <input 
           type="search"
-          className="w-full py-2 px-2.5 text-gray-900 dark:text-white bg-transparent rounded-r-lg border-2 border-primary-600 dark:placeholder-gray-400 focus:border-primary-600 focus:ring-0"
+          className="w-full py-2 px-2.5 text-gray-900 dark:text-white bg-transparent rounded-r-lg border-2 border-primary-550 dark:placeholder-gray-400 focus:border-primary-550 focus:ring-0"
           placeholder="Buscar en TecnoCat"
           required
         />
-        <button type="submit" className="absolute top-0 right-0 p-2.5 text-white bg-primary-600 rounded-r-lg border-2 border-primary-600 focus:outline-none" aria-label="Search">
+        <button type="submit" className="absolute top-0 right-0 p-2.5 text-white bg-primary-550 rounded-r-lg border-2 border-primary-550 focus:outline-none" aria-label="Search">
           <SearchIcon />
         </button>
       </div>
