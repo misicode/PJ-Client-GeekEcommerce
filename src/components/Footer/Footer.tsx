@@ -10,7 +10,7 @@ const Footer = () => {
         <div>
           <a href="#" className="flex items-center">
             <div className="w-11">
-              <img className="h-10" src="logo.svg" alt="Logo TecnoCat" />
+              <img className="h-10 w-10" height="100%" width="100%" src="logo.svg" alt="Logo TecnoCat" />
             </div>
             <span className="pl-2 text-3xl font-primary font-medium text-primary-500">
               TecnoCat

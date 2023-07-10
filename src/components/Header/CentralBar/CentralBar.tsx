@@ -7,7 +7,7 @@ export const CentralBar = () => {
     <div className="h-24 px-6 sm:px-12 md:px-16 lg:px-24 flex items-center">
       <div className="flex items-center">
         <div className="w-16">
-          <img className="h-14" src="logo.svg" alt="Logo TecnoCat" />
+          <img className="h-14 w-14" height="100%" width="100%" src="logo.svg" alt="Logo TecnoCat" />
         </div>
         <span className="pl-2 text-4xl font-primary font-medium text-primary-500">
           TecnoCat
