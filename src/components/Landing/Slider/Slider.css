@@ -1,0 +1,5 @@
+@media only screen and (max-width: 768px) {
+  div.absolute.bottom-5.left-1\/2.flex.-translate-x-1\/2.space-x-3 {
+    display: none;
+  }
+}
