@@ -34,9 +34,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="grid mt-6 md:mt-3 grid-cols-2 gap-8 sm:gap-6">
+        <div className="grid mt-8 md:mt-3 grid-cols-2 gap-8 sm:gap-6">
           <div>
-            <h4 className="mb-6 font-bold uppercase text-primary-600">
+            <h4 className="mb-3 md:mb-5 font-bold uppercase text-primary-600">
               Información
             </h4>
             <ul className="flex flex-wrap flex-col text-sm space-y-4">
@@ -53,7 +53,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="mb-6 font-bold uppercase text-primary-600">
+            <h4 className="mb-3 md:mb-5 font-bold uppercase text-primary-600">
               Enlaces
             </h4>
             <ul className="flex flex-wrap flex-col text-sm space-y-4">
@@ -71,9 +71,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr className="mt-6 mb-3 lg:mt-8 lg:mb-5 border-gray-300 dark:border-gray-600" />
-      <div className="pb-3 lg:pb-5 font-medium tracking-wide text-center">
-        <p className="text-sm">
+      <hr className="mt-8 mb-5 border-gray-300 dark:border-gray-600" />
+      <div className="pb-5 font-medium tracking-wide text-center">
+        <p className="text-xs md:text-sm">
           © { year } Learning and Programming | Coded by { " " }
           <a href="https://github.com/misicode" className="text-primary-600 font-bold" target="_blank" rel="noreferrer">
             MISICODE
