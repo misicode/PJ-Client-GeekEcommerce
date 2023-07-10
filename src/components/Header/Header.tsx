@@ -4,7 +4,7 @@ import TopBar from "./TopBar/TopBar";
 
 const Header = () => {
   return (
-    <header className="text-xs dark:text-white dark:bg-gray-800">
+    <header className="text-xs">
       <TopBar />
       <CentralBar />
       <NavBar />

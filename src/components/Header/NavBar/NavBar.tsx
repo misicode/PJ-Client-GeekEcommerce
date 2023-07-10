@@ -17,7 +17,7 @@ const collectibles: DropdownOption[] = [
 const consoles: DropdownOption[] = [
   { value: "CON1", label: convertText("CONSOLA 1") },
   { value: "CON2", label: convertText("CONSOLA 2") },
-  { value: "CON2", label: convertText("CONSOLA 3") },
+  { value: "CON3", label: convertText("CONSOLA 3") },
 ];
 const cards: DropdownOption[] = [
   { value: "CAR1", label: convertText("TARJETA 1") },

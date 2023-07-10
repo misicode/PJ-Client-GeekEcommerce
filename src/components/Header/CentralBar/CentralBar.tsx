@@ -9,7 +9,9 @@ export const CentralBar = () => {
         <div className="w-16">
           <img className="h-14" src="logo.svg" alt="Logo TecnoCat" />
         </div>
-        <span className="pl-2 text-4xl font-primary font-medium text-primary-500">TecnoCat</span>
+        <span className="pl-2 text-4xl font-primary font-medium text-primary-500">
+          TecnoCat
+        </span>
       </div>
       <SearchBar />
       <div className="ml-10 text-gray-700 dark:text-white">
