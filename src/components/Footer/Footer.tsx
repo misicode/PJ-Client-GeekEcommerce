@@ -19,7 +19,7 @@ const Footer = () => {
           <p className="mt-4">
             Tienda online especializada en videojuegos, consolas y accesorios del mundo gamer.
           </p>
-          <div className="flex mt-4 text-sm items-center">
+          <div className="flex mt-5 text-sm items-center">
             <WhatsAppIcon />
             <div className="ml-3">
               <p className="mb-1 font-medium">WhatsApp</p>
@@ -75,7 +75,7 @@ const Footer = () => {
       <div className="pb-3 lg:pb-5 font-medium tracking-wide text-center">
         <p className="text-sm">
           © { year } Learning and Programming | Coded by { " " }
-          <a href="https://github.com/misicode" className="text-primary-500" target="_blank" rel="noreferrer">
+          <a href="https://github.com/misicode" className="text-primary-600 font-bold" target="_blank" rel="noreferrer">
             MISICODE
           </a>
         </p>

@@ -39,7 +39,7 @@ const SearchBar = () => {
           placeholder="Buscar en TecnoCat"
           required
         />
-        <button type="submit" className="absolute top-0 right-0 p-2.5 text-white bg-primary-600 rounded-r-lg border-2 border-primary-600 focus:outline-none">
+        <button type="submit" className="absolute top-0 right-0 p-2.5 text-white bg-primary-600 rounded-r-lg border-2 border-primary-600 focus:outline-none" aria-label="Search">
           <SearchIcon />
         </button>
       </div>
