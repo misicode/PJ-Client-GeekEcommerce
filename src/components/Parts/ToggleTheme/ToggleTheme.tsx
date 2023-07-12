@@ -8,13 +8,13 @@ const ToggleTheme = () => {
   return (
     <button
       onClick={ toggleTheme }
-      className="pl-2 text-gray-500 hover:text-primary-500 border-l-2 border-gray-300 dark:border-gray-700 focus:outline-none"
+      className="py-3 lg:py-0 pl-3 lg:pl-2 text-gray-500 hover:text-primary-500 lg:border-l-2 border-gray-300 dark:border-gray-700 focus:outline-none"
       type="button"
       aria-label="Toggle Theme"
     >
       <svg
         id="theme-toggle-light"
-        className="hidden w-4 h-4"
+        className="hidden w-6 lg:w-4 h-6 lg:h-4"
         fill="currentColor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ const ToggleTheme = () => {
       </svg>
       <svg
         id="theme-toggle-dark"
-        className="hidden w-4 h-4"
+        className="hidden w-6 lg:w-4 h-6 lg:h-4"
         fill="currentColor"
         viewBox="0 0 20 20"
         xmlns="http://www.w3.org/2000/svg"

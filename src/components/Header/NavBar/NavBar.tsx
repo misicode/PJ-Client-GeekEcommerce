@@ -31,7 +31,7 @@ const videogames: DropdownOption[] = [
 
 const NavBar = () => {
   return (
-    <nav className="flex pb-8 font-medium justify-center">
+    <nav className="hidden lg:flex pb-8 font-medium justify-center">
       <DropdownHoverList
         firstOption="ACCESORIOS"
         options={ accessories }
