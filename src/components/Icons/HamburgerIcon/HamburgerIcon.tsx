@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 type HamburgerIconProps = {
   isOpen: boolean;
   setIsOpen: (v: boolean) => void;
@@ -11,6 +9,7 @@ const HamburgerIcon = ({ isOpen, setIsOpen }: HamburgerIconProps) => {
       <button
         onClick={ () => setIsOpen(!isOpen) }
         className="flex items-center py-2 rounded text-black-500 hover:text-black-400"
+        aria-label="Menu"
       >
         <svg
           className={ `fill-current h-5 w-5 ${ isOpen ? "hidden" : "block"}` }

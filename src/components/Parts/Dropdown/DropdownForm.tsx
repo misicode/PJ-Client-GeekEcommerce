@@ -15,7 +15,7 @@ const DropdownForm = ({ containerStyle = "", selectorStyle = "", firstOption, ch
 
   return (
     <div ref={ dropdownRef } className={ `relative ${ containerStyle }` }>
-      <button onClick={ toggleDropdown } className={ `flex w-full rounded items-center justify-between ${ selectorStyle }` }>
+      <button onClick={ toggleDropdown } className={ `flex w-full rounded items-center justify-between ${ selectorStyle }` } aria-label="Toggle Language and Currency">
         <span className="hidden lg:block">{ firstOption }</span>
         <SelectorIcon classList="hidden lg:block w-3.5 h-3.5" />
         <SelectorLCIcon />
