@@ -12,7 +12,7 @@ export const CentralBar = () => {
     <div className="lg:flex lg:h-24 lg:px-24 lg:items-center">
       <div className="fixed lg:static flex z-30 lg:z-0 w-full lg:w-auto px-6 sm:px-12 md:px-16 lg:px-0 items-center bg-gray-100 lg:bg-transparent dark:bg-gray-900 lg:dark:bg-transparent">
         <HamburgerIcon isOpen={ isOpen } setIsOpen={ setIsOpen } />
-        <div className="flex py-4 lg:py-0 pl-6 items-center justify-center">
+        <div className="flex py-4 lg:py-0 pl-6 lg:pl-0 items-center justify-center">
           <div className="w-10 lg:w-16">
             <img className="h-10 lg:h-14 w-10 lg:w-14" height="100%" width="100%" src="logo.svg" alt="Logo TecnoCat" />
           </div>
