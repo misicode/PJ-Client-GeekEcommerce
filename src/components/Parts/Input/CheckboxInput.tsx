@@ -8,7 +8,7 @@ const CheckboxInput = ({ id }: CheckboxInputProps) => {
     <input
       id={ id }
       type="checkbox"
-      className="h-4 w-4 text-primary-600 bg-gray-150 dark:bg-gray-750 border-2 border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-primary-600  dark:ring-offset-gray-800 rounded"
+      className="h-4 w-4 text-primary-600 bg-gray-150 dark:bg-gray-750 border border-gray-400 dark:border-gray-600 focus:ring-2 focus:ring-primary-600  dark:ring-offset-gray-800 rounded"
     />
   );
 };
