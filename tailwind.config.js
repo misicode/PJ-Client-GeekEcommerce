@@ -15,6 +15,10 @@ export default {
           600: "#088276",
           700: "#077369",
         },
+        "gray": {
+          150: "#ECEDF0",
+          750: "#283448",
+        },
       },
       fontFamily: {
         "primary": ["Kanit", "Arial", "sans-serif"],

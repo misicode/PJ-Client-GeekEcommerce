@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import WhatsAppIcon from "../Icons/WhatsAppIcon/WhatsAppIcon";
 import EmailIcon from "../Icons/EmailIcon/EmailIcon";
 
@@ -8,14 +10,14 @@ const Footer = () => {
     <footer className="pt-8 px-6 sm:px-12 md:px-16 lg:px-24 text-gray-700 dark:text-gray-400 bg-gray-200 dark:bg-gray-900">
       <div className="grid grid-cols-1 md:grid-cols-[2fr_3fr] md:gap-16 lg:gap-48 xl:gap-96">
         <div>
-          <a href="#" className="flex items-center">
+          <Link to="/" className="flex items-center">
             <div className="w-11">
               <img className="h-10 w-10" height="100%" width="100%" src="logo.svg" alt="Logo TecnoCat" />
             </div>
             <span className="pl-2 text-3xl font-primary font-medium text-primary-500">
               TecnoCat
             </span>
-          </a>
+          </Link>
           <p className="mt-4">
             Tienda online especializada en videojuegos, consolas y accesorios del mundo gamer.
           </p>
