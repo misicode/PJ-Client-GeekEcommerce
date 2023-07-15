@@ -11,7 +11,7 @@ const Register = () => {
       <div className="flex lg:absolute h-32 lg:h-auto lg:w-1/2 lg:inset-y-0 lg:left-0 brightness-[.65] dark:brightness-[.45] lg:filter-none items-center">
         <img
           className="object-cover lg:w-full lg:h-full"
-          src="background_login.webp"
+          src="https://res.cloudinary.com/rukimiuwu/image/upload/v1689393129/GeekEcommerce/utils/background_login_jkl4zv.webp"
           alt="banner"
         />
       </div>
@@ -49,7 +49,7 @@ const Register = () => {
                 Al registrarse indica que ha leído y está de acuerdo con los términos y condiciones.
               </p>
             </form>
-            <p className="mx-6 pt-6 pb-4 text-sm text-gray-600 dark:text-gray-300 text-center border-t border-gray-400 dark:border-gray-600">
+            <p className="mx-6 pt-5 pb-4 text-sm text-gray-600 dark:text-gray-300 text-center border-t border-gray-400 dark:border-gray-600">
               ¿Ya tienes una cuenta?
               <Link to="/login" className="ml-2 text-primary-600 hover:text-primary-700 font-semibold">
                 Inicia sesión

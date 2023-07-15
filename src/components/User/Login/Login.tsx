@@ -12,7 +12,7 @@ const Login = () => {
       <div className="flex lg:absolute h-32 lg:h-auto lg:w-1/2 lg:inset-y-0 lg:right-0 brightness-[.65] dark:brightness-[.45] lg:filter-none items-center">
         <img
           className="object-cover lg:w-full lg:h-full"
-          src="background_login.webp"
+          src="https://res.cloudinary.com/rukimiuwu/image/upload/v1689393129/GeekEcommerce/utils/background_login_jkl4zv.webp"
           alt="banner"
         />
       </div>
