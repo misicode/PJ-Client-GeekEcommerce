@@ -4,7 +4,7 @@ import "./Slider.css";
 
 const Slider = () => {
   return (
-    <div className="h-[34rem] pb-12 px-6 sm:px-12 md:px-16 lg:px-24">
+    <div className="h-[34rem] px-6 sm:px-12 md:px-16 lg:px-24 pb-12">
       <Carousel>
         <img
           alt="..."
