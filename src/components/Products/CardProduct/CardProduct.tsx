@@ -4,11 +4,12 @@ type CardProductProps = {
   product: Product;
 };
 
-const CardProduct = ({ product: { id, name, imageSrc, price } }: CardProductProps) => {
+const CardProduct = ({ product: { id, name, imageSrc, imageAlt, price } }: CardProductProps) => {
   return (
     <a href="#">
       <div className="h-56 w-full bg-white dark:bg-gray-800 rounded-lg aspect-h-1 aspect-w-1 lg:aspect-none overflow-hidden">
         <img
+          alt={ imageAlt }
           src={ imageSrc }
           className="h-full mx-auto py-6 px-5 object-contain group-hover:scale-110 ease-in duration-300"
         />
