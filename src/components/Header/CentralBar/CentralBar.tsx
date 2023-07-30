@@ -15,7 +15,7 @@ export const CentralBar = () => {
         <HamburgerIcon isOpen={ isOpen } setIsOpen={ setIsOpen } />
         <Link to="/" className="flex py-4 lg:py-0 pl-6 lg:pl-0 items-center justify-center">
           <div className="w-44 lg:w-60">
-            <img className="h-10 lg:h-14" height="100%" width="100%" src="logo.webp" alt="Logo TecnoCat" />
+            <img className="h-10 lg:h-14 w-44 lg:w-60" height="100%" width="100%" src="logo.webp" alt="Logo TecnoCat" />
           </div>
         </Link>
       </div>

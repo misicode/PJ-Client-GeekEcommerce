@@ -12,7 +12,7 @@ const Footer = () => {
         <div>
           <Link to="/" className="flex items-center">
             <div className="w-44">
-              <img className="h-10" height="100%" width="100%" src="logo.webp" alt="Logo TecnoCat" />
+              <img className="h-10 w-44" height="100%" width="100%" src="logo.webp" alt="Logo TecnoCat" />
             </div>
           </Link>
           <p className="mt-4">
