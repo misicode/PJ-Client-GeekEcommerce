@@ -11,8 +11,8 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-[2fr_3fr] md:gap-16 lg:gap-48 xl:gap-96">
         <div>
           <Link to="/" className="flex items-center">
-            <div className="w-44">
-              <img className="h-10 w-44" height="100%" width="100%" src="logo.webp" alt="Logo TecnoCat" />
+            <div className="w-48">
+              <img className="h-10 w-[11.2rem]" height="100%" width="100%" src="logo.webp" alt="Logo TecnoCat" />
             </div>
           </Link>
           <p className="mt-4">
