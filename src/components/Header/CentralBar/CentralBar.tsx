@@ -14,12 +14,9 @@ export const CentralBar = () => {
       <div className="fixed lg:static flex z-30 lg:z-0 w-full lg:w-auto px-6 sm:px-12 md:px-16 lg:px-0 items-center bg-gray-100 lg:bg-transparent dark:bg-gray-900 lg:dark:bg-transparent">
         <HamburgerIcon isOpen={ isOpen } setIsOpen={ setIsOpen } />
         <Link to="/" className="flex py-4 lg:py-0 pl-6 lg:pl-0 items-center justify-center">
-          <div className="w-10 lg:w-16">
-            <img className="h-10 lg:h-14 w-10 lg:w-14" height="100%" width="100%" src="logo.svg" alt="Logo TecnoCat" />
+          <div className="w-44 lg:w-60">
+            <img className="h-10 lg:h-14" height="100%" width="100%" src="logo.webp" alt="Logo TecnoCat" />
           </div>
-          <span className="pl-2 text-3xl lg:text-4xl font-primary font-medium text-primary-500">
-            TecnoCat
-          </span>
         </Link>
       </div>
       {

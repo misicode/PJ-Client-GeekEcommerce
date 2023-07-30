@@ -20,9 +20,6 @@ export default {
           750: "#283448",
         },
       },
-      fontFamily: {
-        "primary": ["Kanit", "Arial", "sans-serif"],
-      },
     },
   },
   plugins: [require("flowbite/plugin")],

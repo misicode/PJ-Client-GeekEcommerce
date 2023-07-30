@@ -23,7 +23,7 @@ const SearchBar = () => {
   };
 
   return (
-    <form className="flex flex-1 w-full pt-24 lg:pt-0 px-6 sm:px-12 md:px-16 lg:px-0 lg:pl-16 pb-8 lg:pb-0 text-sm">
+    <form className="flex flex-1 w-full pt-24 lg:pt-0 px-6 sm:px-12 md:px-16 lg:px-0 lg:pl-14 pb-8 lg:pb-0 text-sm">
       <DropdownList
         containerStyle="w-44"
         selectorStyle="py-2.5 px-3 text-neutral-50 font-medium bg-primary-550 border-2 border-primary-550 rounded-l-lg focus:rounded-tl-lg"
