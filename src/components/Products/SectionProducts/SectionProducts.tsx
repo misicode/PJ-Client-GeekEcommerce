@@ -73,13 +73,13 @@ type SectionProductsProps = {
 const SectionProducts = ({ title }: SectionProductsProps) => {
   return (
     <section className="relative py-12 sm:py-16 px-6 sm:px-12 md:px-16 lg:px-24 bg-gray-200 dark:bg-gray-900">
-      <h2 className="mb-8 text-xl font-bold text-center">
+      <h2 className="mb-8 text-2xl font-bold tracking-wider text-center">
         { title }
       </h2>
       <Carousel>
         {
           products.map((product) => (
-            <CardProduct product={ product } />
+            <CardProduct key={ product.id } product={ product } />
           ))
         }
       </Carousel>

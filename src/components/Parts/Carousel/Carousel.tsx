@@ -15,10 +15,10 @@ type CarouselProps = {
 const Carousel = ({ children }: CarouselProps) => { 
   return (
     <Swiper
-      modules={[Navigation, Pagination]}
-      rewind={true}
-      spaceBetween={50}
-      slidesPerView={2}
+      modules={ [Navigation, Pagination] }
+      rewind={ true }
+      spaceBetween={ 50 }
+      slidesPerView={ 2 }
       navigation
       pagination={{ clickable: true }}
       breakpoints={{
@@ -35,8 +35,6 @@ const Carousel = ({ children }: CarouselProps) => {
           spaceBetween: 50,
         },
       }}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
     >
       {
         React.Children.map(children, child =>

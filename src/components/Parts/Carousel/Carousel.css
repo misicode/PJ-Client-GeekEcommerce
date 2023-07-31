@@ -32,6 +32,7 @@
   bottom: var(--swiper-pagination-bottom, 20px);
 }
 .swiper-pagination-bullet {
+  --swiper-theme-color: #088276;
   --swiper-pagination-bullet-inactive-color: #030712;
   width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 11px));
   height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 11px));
