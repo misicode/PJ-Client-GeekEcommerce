@@ -3,9 +3,10 @@ const SecurePaymentIcon = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
-      width="50d"
-      height="50"
+      width="46"
+      height="46"
       fill="currentColor"
+      className="mx-auto"
     >
       <g>
         <path fill="none" d="M0 0h24v24H0z" />

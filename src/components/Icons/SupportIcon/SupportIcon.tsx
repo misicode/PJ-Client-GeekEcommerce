@@ -3,9 +3,10 @@ const SupportIcon = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
-      width="46d"
-      height="46"
+      width="44"
+      height="44"
       fill="currentColor"
+      className="mx-auto"
     >
       <g>
         <path fill="none" d="M0 0h24v24H0z" />
